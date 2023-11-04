@@ -1,0 +1,45 @@
+/* reset everything*/
+/* Tentitive Color Scheme
+Major:#E8F1F2
+font: #001A23
+other: #7A9E7E
+other2: #B3EFB2    lighter other
+other3: #31493C     darker other
+*/
+html {
+    font-size: 60%;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #E8F1F2;
+	--font-color:#001A23;
+	--other-color: #7A9E7E;
+	--other2-color: #B3EFB2; /*lighter other*/
+	--other3-color: #31493C; /*darker other*/
+	--background-image: url("../img/Hero-section-bg-Image.png");
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+.thebutton {
+    height: 2em;
+    width: 20em;
+    background-color: var(--other2-color);
+    border-color: var(--other3-color);
+    color:var(--font-color);
+    border-radius: 5%;  
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+}
+.main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+}
